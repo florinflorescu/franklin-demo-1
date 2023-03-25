@@ -14,6 +14,7 @@ fetch(url)
     // Create a new <div> element to display the response
     const responseElement = document.createElement('div');
     responseElement.textContent = JSON.stringify(data);
+    //test
     displayElement.appendChild(responseElement);
   })
   .catch(error => console.error(error));
