@@ -14,4 +14,11 @@
 
 .clock .clock-body {
     margin: 16px;
+    background-color: red;
+    font-size: 23px;
+}
+
+.ckock > div {
+    background-color: blue;
+    font-size: 23px;
 }
