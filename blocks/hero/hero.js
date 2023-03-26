@@ -1,3 +1,14 @@
+// create a new meta tag element
+var cspMeta = document.createElement('meta');
+
+// set the http-equiv attribute to "Content-Security-Policy"
+cspMeta.setAttribute('http-equiv', 'Content-Security-Policy');
+
+// set the content of the meta tag to your desired Content-Security-Policy
+cspMeta.setAttribute('content', 'default-src https:');
+
+// add the meta tag to the document's head element
+document.head.appendChild(cspMeta); 
 
 const hero = document.querySelector('[data-block-name="hero"]');
 hero.style.backgroundColor = "green";
