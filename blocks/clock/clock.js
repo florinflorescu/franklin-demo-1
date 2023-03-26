@@ -1,7 +1,6 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
-const li = document.createElement('li');
-li.innerHTML = row.innerHTML;
+
 
  function displayTime() {
 //     var date = new Date();
