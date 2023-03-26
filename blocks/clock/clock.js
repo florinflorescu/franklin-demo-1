@@ -18,4 +18,7 @@ import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
   
    export default function decorate(block) {
     console.log("decorate clock");
+    var myButton = document.createElement('button');
+    myButton.innerHTML = 'Click me!';
+    appendChild(myButton);
    }
