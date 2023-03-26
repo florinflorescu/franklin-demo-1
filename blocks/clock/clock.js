@@ -11,7 +11,7 @@ import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
   var date = new Date();
   var time = date.toLocaleTimeString();
   var clock = document.getElementsByClassName('clock');
-  clock.innerHTML = time;
+  clock[0].innerHTML = time;
   console.log(time);
    }
   
@@ -23,13 +23,13 @@ import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
   
    export default function decorate(block) {
     console.log("decorate clock");
-    const boxes = document.getElementsByClassName('clock');
-    console.log(boxes); // 👉️ [div.box, div.box, div.box]
+    // const boxes = document.getElementsByClassName('clock');
+    // console.log(boxes); // 👉️ [div.box, div.box, div.box]
 
-    const child = document.createElement('div');
-    child.innerHTML = `<h1>Hello world</h1>`;
+    // const child = document.createElement('div');
+    // child.innerHTML = `<h1>Hello world</h1>`;
 
-    boxes[0].appendChild(child);
+    // boxes[0].appendChild(child);
 
 
    
