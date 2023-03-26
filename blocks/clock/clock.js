@@ -25,4 +25,12 @@ import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
     child.innerHTML = `<h1>Hello world</h1>`;
 
     boxes[0].appendChild(child);
+
+
+    var date = new Date();
+    var time = date.toLocaleTimeString();
+    var clock = document.getElementsByClassName('clock');
+    clock.innerHTML = time;
+
+
    }
