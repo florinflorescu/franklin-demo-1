@@ -17,3 +17,6 @@ li.innerHTML = row.innerHTML;
 //   // update the time every 10 seconds
    setInterval(displayTime, 10000);
   
+   export default function decorate(block) {
+    console.log("decorate clock");
+   }
