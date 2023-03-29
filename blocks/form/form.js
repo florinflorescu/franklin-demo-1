@@ -186,11 +186,14 @@ function createSelect(fd) {
   
   export default async function decorate(block) {
     const form = block.querySelector('a[href$=".json"]');
-
+    
     console.log('form decorate');
     console.log(form);
+    console.log('a[href$=".json"]');
     if (form) {
         console.log('form is here');
       form.replaceWith(await createForm(form.href));
+      //form.replaceWith(await createForm('https://main--franklin-demo-1--florinflorescu.hlx.page/form-data.json'));
+
     }
   }

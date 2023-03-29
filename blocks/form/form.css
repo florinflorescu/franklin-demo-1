@@ -20,7 +20,7 @@ main .form {
   main .form input,
   main .form textarea,
   main .form select {
-    border: 1px solid rgb(193 193 195);
+    border: 1px solid rgb(93 193 195);
     padding: 11px;
     border-radius: 0;
     width: 100%;
