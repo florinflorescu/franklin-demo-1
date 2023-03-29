@@ -186,7 +186,9 @@ function createSelect(fd) {
   
   export default async function decorate(block) {
     const form = block.querySelector('a[href$=".json"]');
+    console.log('form decorate');
     if (form) {
+        console.log('form is here');
       form.replaceWith(await createForm(form.href));
     }
   }
