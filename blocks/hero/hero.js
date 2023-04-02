@@ -84,7 +84,7 @@ let data = {
 
 //Make a request to the URL and handle the response
 //const url = 'https://main--franklin-demo-1--florinflorescu.hlx.page/form-data.json?sheet=results'; // replace with your desired URL
-const url = '/form-data.json?sheet=results'; // replace with your desired URL
+const url = 'https://main--franklin-demo-1--florinflorescu.hlx.page/form-data.json?sheet=results'; // replace with your desired URL
 fetch(url)
   .then(response => response.json())
   .then(data => {
